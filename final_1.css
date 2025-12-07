@@ -1,0 +1,41 @@
+body.full-img {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+img .fullscreen {
+	/*padding: 0;
+	border: 0;*/
+	height: 100vh;     
+    width: auto;       
+    object-fit: cover; 
+    display: block;
+    position: absolute;
+}
+
+body.full-img h {
+    position: absolute;
+    top: 84%;
+    left: 41.5%;
+    color: white;
+    font-size: 15pt;
+}
+
+body.full-img footer {
+    position: absolute;
+    top: 96%;
+    left: 2%;
+    color: white;
+    font-size: 10pt;
+    /*z-index: 10;*/
+}
+
+.mini2 {
+    position: absolute;
+    width: 20% !important;
+    height: auto !important;
+    object-fit: contain;
+    top: 25.7%;
+    ;left: 40%;
+}
